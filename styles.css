@@ -1,0 +1,32 @@
+img{
+  width:400px;
+  height:350px;
+  margin:10px;
+  transition: all 0.5s;
+}
+h2{
+
+    font-family:fantasy;
+    font-size:3em;
+    text-align:center;
+    border-bottom: 2px solid pink;
+    border-right:2px solid pink;
+    box-shadow: 4px 4px 5px #8888;
+   
+}
+h2:hover{
+   transition-delay: 1s, 250ms;
+transition-property: margin-right, color;
+}
+.pictures{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin:10px
+
+}
+img:hover {
+  transform: scale(1.1);
+
+
+}
